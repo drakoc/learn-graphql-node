@@ -8,7 +8,7 @@ const {
 
 const PlanetType = new GraphQLObjectType({
   name: 'planet',
-  description: 'All plantets from Start Wars...',
+  description: 'All planets from Start Wars...',
   fields: () => ({
     name: {
       type: GraphQLString,
@@ -60,8 +60,8 @@ const PlanetType = new GraphQLObjectType({
 });
 
 const StarShipType = new GraphQLObjectType({
-  name: 'startships',
-  description: 'Starhips from Start Wars series',
+  name: 'starship',
+  description: 'Starships from Start Wars series',
   fields: () => ({
     name: {
       type: GraphQLString
@@ -184,7 +184,7 @@ const SpeciesType = new GraphQLObjectType({
 
 const FilmType = new GraphQLObjectType({
   name:'films',
-  description: 'Epizodes from Start Wars series',
+  description: 'Episodes from Start Wars series',
   fields: () => ({
     title: {
       type: GraphQLString
@@ -312,7 +312,7 @@ const VehiclesType = new GraphQLObjectType({
 
 const PeopleType = new GraphQLObjectType({
   name: 'people',
-  description: 'Caracters from Start Wars series',
+  description: 'Characters from Start Wars series',
   fields: () => ({
     name: {
       type: GraphQLString
